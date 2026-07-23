@@ -266,7 +266,7 @@ def _clarifier_note(classification: dict) -> str:
     items = clar or assume  # prefer explicit questions; fall back to assumptions
     if not items:
         return ""
-    bullets = "\n".join(f"- {it.rstrip(".")}." for it in items[:3])
+    bullets = "\n".join(f"- {it.rstrip('.')}." for it in items[:3])
     return "\n\nWorth clarifying:\n" + bullets
 
 

@@ -153,7 +153,7 @@ async def code_pipeline(
         questions = classification.get("clarifying_questions") or []
         if questions:
             note = code.rstrip() + "\n\nWhat I need to proceed:\n" + "\n".join(
-                f"- {q.rstrip(".")}." for q in questions[:3] if q.strip()
+                f"- {q.rstrip('.')}." for q in questions[:3] if q.strip()
             )
             return note
         return code
