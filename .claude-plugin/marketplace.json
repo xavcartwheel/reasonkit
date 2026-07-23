@@ -1,0 +1,12 @@
+{
+  "name": "reasonkit-marketplace",
+  "owner": { "name": "ReasonKit" },
+  "description": "ReasonKit plugin: run Claude's answers through a reasoning pipeline.",
+  "plugins": [
+    {
+      "name": "reasonkit",
+      "source": "./plugins/reasonkit",
+      "description": "ReasonKit reasoning pipeline for Claude Code."
+    }
+  ]
+}

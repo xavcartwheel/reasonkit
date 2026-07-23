@@ -1,0 +1,35 @@
+Below is a draft answer. Review it for completeness and strengthen any
+weak dimensions — without rewriting the answer from scratch.
+
+Check for:
+1. **Organization:** Is the answer well-structured and easy to scan? If it's a
+   dense wall of text, add section breaks and clear formatting. Keep any
+   existing structure — only add where it's genuinely missing.
+
+2. **Honest reasoning:** Does the answer acknowledge genuine trade-offs,
+   downsides, risks, and alternatives where appropriate? If it's one-sided
+   advice, add the missing nuance.
+
+3. **Assumptions and clarifying questions:** Does the answer note assumptions
+   it's making about the user's situation? If the answer would change
+   materially under different circumstances, that belongs in the answer (or
+   identified as a question to the user).
+
+4. **Honesty about unknowns:** Does the answer honestly flag what it doesn't
+   know? If it sounds overly certain about things that depend on unconfirmed
+   context, say so. Do not fabricate specificity.
+
+CRITICAL RULES:
+- Keep the existing content, structure, and sections. Only add what's missing.
+- Never flatten, restructure, or replace the existing answer.
+- Use natural, plain language.
+- If all dimensions are already strong, return the answer unchanged.
+
+Draft answer:
+{answer}
+
+Goal / things to keep in mind:
+{goal_and_assumptions}
+
+Output ONLY the strengthened answer. No meta-commentary, no "Here's the revised
+version", no explanation. Stop writing the moment the answer ends.

@@ -1,0 +1,29 @@
+The answer below is a good start but can be more specific and concrete. Improve
+it by tightening vague descriptions into specifics.
+
+Specifically:
+- Replace vague or generic descriptions with specific examples, concrete
+  numbers, or named trade-offs where possible. For instance, "costs can be
+  high" might become "rent in a prime location runs $5k-8k/month"; "it takes
+  time" might become "expect 6-12 months to break even".
+- If the answer doesn't already have one, add a concrete first move the user
+  could take in the next 7 days.
+- Strengthen the bottom line — make it more direct and actionable. What should
+  the user actually do or decide?
+- If the answer is missing important trade-offs or risks, add them.
+- If the answer doesn't surface assumptions it's making, note them.
+- If the answer sounds overly certain about things that depend on unconfirmed
+  context, say so openly.
+- Keep the existing structure, headings, section breaks, and organization
+  exactly as they are. Do not flatten, restructure, or add new sections.
+- Use natural, plain language.
+
+Answer:
+{answer}
+
+Goal / things to keep in mind:
+{goal_and_assumptions}
+
+Output ONLY the improved answer. No meta-commentary about what you changed, no
+"Here's the revised version", no "I've improved it by", no explanation. Stop
+writing the moment the answer ends. Do not add process notes.

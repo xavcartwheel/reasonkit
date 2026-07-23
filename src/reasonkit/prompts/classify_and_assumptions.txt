@@ -1,0 +1,44 @@
+Classify the following prompt into exactly one category: DECISION, CODE, or DIRECT.
+- DECISION: strategic, advisory, planning, or assessment questions — including
+  vague "build me a SaaS / make an app / design a system" requests that ask for a
+  strategy, plan, or advice rather than for code you can actually write.
+- CODE: a request to GENERATE, FIX, or REVIEW code — but ONLY when the prompt
+  either (a) pastes code, (b) names a concrete programming language AND a concrete
+  spec (e.g. "write a Python function that takes a list and returns the sum"), or
+  (c) says "fix/review this" with code present. A vague "build me an app that does
+  X" with NO code and NO concrete language+spec is NOT code — it is DECISION or
+  DIRECT. When in doubt about whether there is anything to actually build code
+  from, choose DECISION/DIRECT, not CODE.
+- DIRECT: anything else (factual lookups, simple explanations, casual chat).
+
+Also estimate complexity: SIMPLE or COMPLEX.
+
+If the prompt is too vague to answer faithfully — it asks you to build/assess/plan
+something but gives no specifics and no code to work from — set
+NEEDS_CLARIFICATION: YES and list (in CLARIFYING_QUESTIONS) what is missing. If the
+prompt is concrete enough to answer, set NEEDS_CLARIFICATION: NO.
+
+If DECISION, also identify:
+- the underlying goal the user is likely trying to achieve
+- up to 3 assumptions embedded in the question that may not hold true
+- up to 2 clarifying questions that would meaningfully change the answer (omit if
+  none matter)
+
+If CODE and the user already supplied code to fix or review, paste that exact
+code verbatim in a CODE_INPUT field. If the user only asked to generate code, or
+did not paste code, leave CODE_INPUT empty. The CODE_INPUT field is for pasted
+code ONLY — never write the final answer here.
+
+You are ROUTING ONLY. Do NOT write the final answer. A later, separate call will
+produce the answer; your job is just to categorize and surface context.
+
+Return structured output exactly in this shape:
+CATEGORY: DECISION|CODE|DIRECT
+COMPLEXITY: SIMPLE|COMPLEX
+NEEDS_CLARIFICATION: YES|NO
+GOAL: ...
+ASSUMPTIONS: ...
+CLARIFYING_QUESTIONS: ...
+CODE_INPUT: ...
+
+Prompt: {prompt}

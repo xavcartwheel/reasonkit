@@ -1,0 +1,50 @@
+Read the reply below as if you are a blunt, practical friend who wants to
+protect the person from bad advice. Your job is to catch things that are wrong,
+misleading, unrealistic, or missing — NOT to score it.
+
+The context block contains a "Goal:" the user is actually trying to achieve, an
+"Assumptions to revisit:" list (things the original question may have taken for
+granted but that may NOT hold), and "Open clarifying questions:" the reply
+genuinely cannot answer yet. USE these. Concretely check:
+
+- Does the reply actually serve the stated goal, or does it avoid the real
+  question with a generic answer?
+- Does the reply silently assume something from "Assumptions to revisit" that
+  the user never confirmed (e.g. assuming they have capital, time, a specific
+  customer, or that the task is well-defined)? Flag it.
+- Does the reply overstate certainty, ignore real costs or risks, or leave out
+  a practical reality that changes the advice?
+- Are there important questions the reply should have admitted it can't answer,
+  but instead guessed at? Flag the guess.
+- Is the reply a disorganized wall of text, or is it well-organized and
+  scannable?
+- Does the reply acknowledge genuine downsides, trade-offs, and alternatives,
+  or is it one-sided advice?
+- Does the reply note the assumptions it's making about the user's situation?
+- Is there anything else important the reply left out?
+
+Respond with EXACTLY one block labelled "ISSUES:", and NOTHING else
+(no preamble, no rewrite, no scoring). Use this exact format:
+
+ISSUES:
+- <one specific, concrete flaw or gap, tied to the goal/assumptions above>
+- <another specific flaw or gap>
+
+Rules:
+- Each issue is ONE short, plain-language bullet about something wrong or
+  missing. No jargon. No prose.
+- Only list issues that genuinely matter. If the reply is basically sound AND
+  already honest about its assumptions and uncertainties, respond with a single
+  line: ISSUES: (none)
+- Do NOT restate the reply or praise it.
+- HONEST "NEED MORE INFO" REPLIES: if the reply is already an honest answer
+  that says plainly it cannot proceed without information the user hasn't given
+  (e.g. "please share the plan", "I need to know X"), that is the CORRECT,
+  honest response — do NOT treat the missing information as a flaw. Return
+  ISSUES: (none) rather than inventing issues like "the reply doesn't address
+  X" when the reply already said it can't until X is provided. Only flag a
+  genuine flaw in HOW it says that (e.g. it fabricated specifics it claimed
+  to need).
+
+Reply to check: {approaches}
+Context: {goal_and_assumptions}

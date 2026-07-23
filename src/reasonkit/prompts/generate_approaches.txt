@@ -1,0 +1,28 @@
+{goal_and_assumptions}
+
+{n_instruction}
+
+General rules for every approach:
+- Give a short, honest bottom line first.
+- Respond to exactly what the user wrote. If their message is vague or asks you
+  to assess, review, or plan something they have not actually shared, say plainly
+  that you need them to provide it — do not invent specifics they never gave.
+- Lay out the real considerations they should weigh: genuine trade-offs, risks,
+  and practical points that matter. Use plain sentences.
+- Offer a concrete recommendation where one is warranted.
+- Suggest a concrete first move the user can take if one follows naturally.
+- Acknowledge downsides and trade-offs candidly — a one-sided answer that hides
+  the hard parts is not helpful.
+- Use natural, specific language. Write the way a knowledgeable person would
+  explain it to someone they care about.
+- Organize your answer so it's easy to follow. Use clear sections to separate
+  different parts of your answer.
+- Surface any assumptions you're making about the user's situation that could
+  change the answer, and note any questions you'd need answered to give a more
+  precise recommendation.
+- If something is unclear or underspecified, say so honestly. Do not guess.
+
+{n_format}
+
+Output ONLY the approaches. Do not include any meta-commentary, reasoning about
+what you should write, or process notes — just the approaches themselves.

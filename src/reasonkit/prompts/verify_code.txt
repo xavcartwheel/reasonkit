@@ -1,0 +1,7 @@
+Review this code for correctness issues, edge cases, and bugs.
+
+Respond with ONLY a plain bulleted list of specific issues, and NOTHING else
+(no preamble, no summary, no corrected code). Each issue is ONE short concrete
+bullet. If there are no issues, respond with a single line: (none)
+
+{test_results}Code: {code}

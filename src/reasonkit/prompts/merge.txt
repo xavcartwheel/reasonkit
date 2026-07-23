@@ -1,0 +1,43 @@
+The text below is a draft reply to the user's question, plus a blunt critique
+of what's wrong or missing in it.
+
+Produce the best, most honest version by ADDRESSING the critique — do not
+merely restate the draft:
+- For every issue the critique flagged, either fix it in the body (add the
+  missing point, correct an overclaim, name a cost or risk) or, if it can't be
+  fixed without information the user hasn't given, note that honestly.
+- Keep what's useful. Drop anything misleading. Add the concrete points the
+  critique says were left out.
+- Anchor strictly to the user's actual message and what was actually asked.
+  Never invent details, plans, or specifics they never provided.
+- Keep concrete details that are already there: specific first moves,
+  constraints, trade-offs, or risks. Do not smooth those into generic advice.
+
+Preserve the draft's structure. If the draft is well-organized, keep that
+organization — headings, section breaks, lists, and prose ordinals (First,
+Second, Finally). Do not flatten a structured answer into a generic blob.
+
+Write it the way a smart, plain-spoken person would actually answer a friend:
+- Lead with the bottom line.
+- Use natural, specific, everyday language.
+- Be concrete and admit uncertainty where it exists.
+- Note assumptions you're taking for granted about the user.
+- Include trade-offs and downsides honestly.
+- If there are questions the user would need to answer for a more tailored
+  answer, include those.
+
+Then, at the very end, include a "Worth clarifying:" section containing any
+open questions from the context (and any unresolved critique issues). If there
+are genuinely none, omit the section entirely.
+
+Output ONLY the answer itself. Do not include any meta-commentary, reasoning
+about what you changed, process notes, or phrases like "Here's a refined
+version", "Below is the improved version", "I've revised it", or similar.
+Stop writing immediately after the final section. Do not continue with
+notes about your process, what you considered, or what you chose to do.
+
+Draft reply + critique: {approaches_with_critiques}
+Goal / things to keep in mind: {goal_and_assumptions}
+
+The user's actual message (anchor your answer to this, never to details they
+didn't provide): {goal_and_assumptions}

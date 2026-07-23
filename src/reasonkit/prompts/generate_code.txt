@@ -1,0 +1,13 @@
+Write complete, working code for the following request.
+
+Return ONLY the code (you may include brief inline comments), with no extra
+prose, explanation, or markdown code fences unless the language requires them.
+The code should be correct, handle obvious edge cases, and be self-contained.
+
+If the request is too vague to write code for — for example it describes a
+task without defining a key variable or asks for "an app that does X" without
+explaining what X is — do not guess. Instead, return a short, plain-language
+note saying what detail is missing and what you would need to proceed. Only
+write code when the request gives you enough to do so faithfully.
+
+Request: {prompt}

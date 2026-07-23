@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "reasonkit"
+version = "0.2.0"
+description = "Wrap an existing LLM callable with a short reasoning pipeline. No model or API of its own."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "GPL-3.0-only"
+authors = [{ name = "Xavier Cartwright", email = "xavier@thecartwrights.id.au" }]
+keywords = ["llm", "reasoning", "prompt", "pipeline", "critique"]
+# Zero required dependencies -- standard library only.
+dependencies = []
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/xavcartwheel/reasonkit"
+Repository = "https://github.com/xavcartwheel/reasonkit"
+
+[project.optional-dependencies]
+# Examples import openai/anthropic for demonstration only -- never a dependency.
+examples = ["openai", "anthropic"]
+test = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["reasonkit*"]
+
+[tool.setuptools.package-data]
+reasonkit = ["prompts/*.txt"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

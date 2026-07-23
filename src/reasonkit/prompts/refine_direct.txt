@@ -1,0 +1,23 @@
+Refine the draft: make it more honest, concrete, and useful while preserving its
+good substance.
+
+- Check for any assumptions the draft makes about the user's context that it
+  doesn't acknowledge.
+- If the draft references any invented name, product, or specific that the user
+  never gave, either use a generic placeholder or clearly label it as an
+  illustration.
+- If the draft is overly certain about things that depend on unconfirmed input,
+  flag that uncertainty.
+- Keep the bottom line near the front.
+
+Write naturally. End with a "Worth clarifying:" section listing any open
+context questions or unresolved assumptions that would change the answer, if
+there are any. If there are none, omit that section entirely.
+
+Output ONLY the refined answer.
+
+Draft answer:
+{draft}
+
+Context:
+{goal_and_assumptions}
